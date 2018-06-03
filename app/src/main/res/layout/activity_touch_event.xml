@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.meizu.lipan.androiddemo.ch03.activity.TouchEventActivity">
+
+    <com.meizu.lipan.androiddemo.ch03.activity.view.TouchViewGroupA
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:background="@color/colorAccent">
+
+        <com.meizu.lipan.androiddemo.ch03.activity.view.TouchViewGroupB
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@color/colorPrimaryDark">
+            <com.meizu.lipan.androiddemo.ch03.activity.view.TouchView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:background="@android:color/darker_gray"/>
+        </com.meizu.lipan.androiddemo.ch03.activity.view.TouchViewGroupB>
+    </com.meizu.lipan.androiddemo.ch03.activity.view.TouchViewGroupA>
+
+</LinearLayout>

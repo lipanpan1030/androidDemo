@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidDemo</string>
+    <string name="title_activity_touch_event">TouchEventActivity</string>
+    <string name="path_circle" translatable="false">
+        M 50,50
+        m -48,0
+        a 48,48 0 1,0 96,0
+        a 48,48 0 1,0 -96,0
+    </string>
+</resources>
